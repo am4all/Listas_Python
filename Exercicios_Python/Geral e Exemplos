@@ -1,0 +1,70 @@
+# comentário
+
+# 1. Comentários
+
+# Este é um comentário de uma linha
+# Usados para explicar o código.
+# O Python ignora o que estiver formatado como comentário.
+
+# 2. Variáveis e Tipos de Dados
+
+texto = "Olá, Mundo!"  # String (str)
+inteiro = 42           # Integer (int)
+decimal = 3.14         # Float (float)
+booleano = True        # Boolean (bool) - True ou False (com inicial maiúscula)
+nulo = None            # Tipo nulo / Vazio (NoneType)
+
+# 3. Operadores Básicos
+
+# Aritméticos e Atribuição
+
+# Comparação e Lógicos
+
+#4. Os Três Operadores Lógicos em Python
+# and (E): Exige que todas as condições sejam verdadeiras. É o operador mais rigoroso.
+
+# or (OU): Exige que pelo menos uma condição seja verdadeira. É um operador mais flexível.
+
+# not (NÃO): Inverte o valor. Se algo é verdadeiro, vira falso. Se é falso, vira verdadeiro.
+
+# A Tabela Verdade Verdade é um mapa que mostra todos os resultados possíveis quando combinamos valores Verdadeiros (True) e Falsos (False).
+
+# COMANDOS
+
+# 1. Comando de Saída: o ESCREVA se transforma em print()
+# O print() é usado para "imprimir", ou seja, exibir informações na tela.
+# Você pode usá-lo para mostrar textos diretos, valores guardados em variáveis ou o resultado de operações matemáticas.
+
+# Exibindo um texto simples
+print("Olá, mundo!")
+
+# Exibindo o valor de uma variável
+nome = "Carlos"
+print("Bem-vindo,", nome)
+
+# 2. Comando de Entrada: o comando LEIA se transforma em input()
+#O input() é usado para interagir com o usuário, 
+#pausando o programa e aguardando que algo seja digitado no teclado.
+# Regra de Ouro: Tudo o que o input() recebe é lido como texto (string). 
+
+# Lendo um texto
+cidade = input("Onde você mora? ")
+
+# Lendo um número inteiro (convertendo o texto para int)
+idade = int(input("Qual é a sua idade? "))
+
+# Lendo um número decimal (convertendo o texto para float)
+altura = float(input("Qual é a sua altura? "))
+
+# 3. Comando Condicional: O comando SE se transforma em if
+# if (se): O ponto de partida. Se a condição for verdadeira, o código abaixo dele é executado.
+# Atenção à Sintaxe: A condição sempre termina com dois pontos (:) 
+# e o código que pertence a esse bloco precisa estar recuado (indentado) na linha de baixo.
+
+# ENTRADA
+nota = float(input("Digite a nota final do aluno: "))
+
+# CONDIÇÃO (IF)
+if nota >= 7.0:
+    # SAÍDA
+    print("Situação: Aprovado!")
