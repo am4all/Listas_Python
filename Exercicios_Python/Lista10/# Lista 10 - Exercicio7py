@@ -1,0 +1,31 @@
+# Lista 10 - Exercicio 7
+#7. Sistema de Lanchonete. Crie um programa que exiba o seguinte menu para o usuário:
+#1 - Hambúrguer (R$ 15,00)
+#2 - Pizza (R$ 25,00)
+#3 - Salada (R$ 12,00)
+#Peça para o usuário digitar o código do pedido. Use a estrutura `if/elif/else` para imprimir o nome do lanche escolhido e o seu valor. Se o usuário digitar um código que não está no menu, imprima "Opção inválida!".
+
+# Exibe o menu
+print("-" * 25)
+print("       MENU DIGITAL      ")
+print("-" * 25)
+print("1 - Hambúrguer (R$ 15,00)")
+print("2 - Pizza (R$ 25,00)")
+print("3 - Salada (R$ 12,00)")
+print("-" * 25)
+
+# Solicita o código
+codigo = int(input("Digite o código do pedido desejado: "))
+
+# Estrutura de decisão do pedido
+if codigo == 1:
+    print("Você escolheu: Hambúrguer")
+    print("Valor: R$ 15,00")
+elif codigo == 2:
+    print("Você escolheu: Pizza")
+    print("Valor: R$ 25,00")
+elif codigo == 3:
+    print("Você escolheu: Salada")
+    print("Valor: R$ 12,00")
+else:
+    print("Opção inválida!")
